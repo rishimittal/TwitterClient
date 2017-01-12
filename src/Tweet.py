@@ -78,7 +78,7 @@ class Tweets:
         tweet_list = []
         for tweet in tweets:
             tweet_json = tweet._json
-            # a. Filter tweets based on #custserv(case-insensitive) tag
+            # a. Filter tweets based on #hashtag (case-insensitive) tag
             hashtag_filter = False
             hashtags = tweet_json['entities']['hashtags']
             for tags in hashtags:
