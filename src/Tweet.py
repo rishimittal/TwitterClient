@@ -12,6 +12,9 @@ class Tweets:
     qry_tweet_count = 0
 
     # Constructor
+    # search_query: hashtag to be searched on
+    # qry_tweet_count: query to be fetched in single request
+    # max_tweets: Imaginary number of tweets to fetch
     def __init__(self, search_query, qry_tweet_count, max_tweets):
         print 'Initiating Tweets Fetcher.....!'
         self.search_query = search_query
