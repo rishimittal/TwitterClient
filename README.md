@@ -19,5 +19,5 @@ Setup Instructions
 4. source venv/bin/activate
 5. pip install -r requirements.txt
 6. cp settings.py.sample src/settings.py
-7. Update the settings.py(using Instructions)
+7. Update the settings.py(using [Instructions](https://dev.twitter.com/resources))
 8. python src/main.py
