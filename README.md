@@ -11,6 +11,14 @@ Requirements
 1. Python 2+
 2. Tweepy Library [link](http://docs.tweepy.org/en/v3.5.0/)
 
+Why Tweepy?
+
+Tweepy is amazing package in python, which is very good in accessing Twitter API's, Some of the features of Tweepy used in this Client are:
+
+1. Auto Wait(sleep) if API rate limit reached, giving you endless access to Tweets.
+2. AppAuthHandler(App-only Auth which gives you higher rate limits)
+
+
 Setup Instructions
 
 1. git clone https://github.com/rishimittal/TwitterClient

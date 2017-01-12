@@ -35,8 +35,8 @@ class Tweets:
         api = tweepy.API(auth, wait_on_rate_limit=True,
         				   wait_on_rate_limit_notify=True)
         # Exit: If authentication is not valid
-        if (not api):
-            print ("Incorrect Authentication")
+        if not api:
+            print "Incorrect Authentication"
             sys.exit(-1)
 
         # logic to keep on polling and fetching the results, between the lower bound(old_id)
